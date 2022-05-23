@@ -1,0 +1,101 @@
+body {
+    background: url(../images/OIP-C.jpg) no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table caption{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+th,td{
+    border: 1px solid #999;
+    text-align: center;
+    padding: 20px 0;
+}
+
+table thead tr{
+    background-color: #008c8c;
+    color: #fff;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #eee;
+}
+
+table tbody tr:hover{
+    background-color: #ccc;
+}
+
+table tbody tr td:first-child{
+    color: #f40;
+}
+
+table tfoot tr td{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.num{
+    display:inline-block;
+    width:3em;
+}
+input{
+    height:2em;
+}
+.talast{
+    text-align: left;
+}
+
+/* table{
+    width:50%;
+    position:relative;
+    margin:30px auto;
+    border-collapse: collapse;
+    border:1px solid gray;
+}
+th{
+    background: cornflowerblue;
+    height:2.5em;
+}
+.tdone{
+    width:10%;
+}
+.tdtwo{
+    width:20%;
+}
+ .tdthree{
+    width:20%;
+}
+ .tdfour{
+    width:20%;
+}
+ .tdfive{
+    width:20%;
+}
+.tdsix{
+    width:10%;
+}
+td{
+    height:2em;
+    text-align: center;
+    border:1px solid #ccc;
+}
+.num{
+    display:inline-block;
+    width:3em;
+}
+input{
+    height:2em;
+}
+.talast{
+    text-align: left;
+} */

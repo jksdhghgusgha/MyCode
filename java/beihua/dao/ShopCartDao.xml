@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="beihua.dao.ShopCartDao">
+
+    <insert id="insertShopCart">
+        insert into shopcart
+        values(#{id},#{message})
+    </insert>
+
+    <select id="selectShopCarts" resultType="ShopCart">
+        select * from shopcart
+    </select>
+
+    <select id="selectShopCart" resultType="ShopCart">
+        select * from shopcart where id= #{id}
+    </select>
+
+    <update id="updateShopCart">
+        update ShopCart set message=#{message}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteShopCart">
+        delete from shopcart where id=#{id}
+    </delete>
+</mapper>
+    

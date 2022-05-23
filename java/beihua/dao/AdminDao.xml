@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="beihua.dao.AdminDao">
+    <insert id="insertAdmin">
+        insert into admin
+        values(#{id},#{name},#{password})
+    </insert>
+
+    <select id="selectAdmins" resultType="Admin">
+        select * from admin
+    </select>
+
+    <select id="selectAdmin" resultType="Admin">
+        select * from admin where id= #{id}
+    </select>
+
+    <update id="updateAdmin">
+        update admin set name=#{name}, password=#{password}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteAdmin">
+        delete from admin where id=#{id}
+    </delete>
+</mapper>
+    

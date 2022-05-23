@@ -1,0 +1,113 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    float: left;
+    overflow: hidden;
+    padding-top: 46px;
+
+
+    
+}
+
+.focus ul {
+    position: absolute;
+    
+
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0,0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+    float: left;
+    margin-top: 46px;
+}
+.news {
+    height: 210px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+
+.news ul li img{
+    transition: all .4s;
+}
+
+
+.news ul li img:hover {
+transform: scale(1.1);
+}
+
+.lifeservice {
+    height: 199px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.lifeservice ul li img {
+    transition: all .4s;
+}
+
+.lifeservice ul li img:hover {
+    transform: scale(1.1);
+}

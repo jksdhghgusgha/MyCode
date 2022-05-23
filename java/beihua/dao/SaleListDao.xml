@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="beihua.dao.SaleListDao">
+    <insert id="insertSaleList">
+        insert into saleList(id, sid, cid, numb, saleTime)
+        values(#{id},#{sid}, #{cid} ,#{numb}, #{saleTime})
+    </insert>
+
+    <select id="selectSaleLists" resultType="SaleList">
+        select * from saleList
+    </select>
+
+    <select id="selectSaleList" resultType="SaleList">
+        select * from saleList where id= #{id}
+    </select>
+
+    <update id="updateSaleList">
+        update saleList set sid=#{sid},cid=#{cid},saleTime=#{saleTime}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteSaleList">
+        delete from salelist where id=#{id}
+    </delete>
+</mapper>
+    

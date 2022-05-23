@@ -1,0 +1,138 @@
+/* .w {
+    width: 1279px;
+    height: 585px;
+    margin: 0 auto;
+    
+} */
+
+
+body {
+    background: url(../images/OIP-C.jpg) no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+
+header {
+    height: 100px;
+    
+    /* border-bottom: 2px solid rgb(19, 13, 48); */
+}
+
+ .logo {
+    padding-top: 15px;
+    -webkit-filter: opacity(90%); 
+    filter: opacity(70%);
+    
+}
+/* 
+.logo a {
+    display: block;
+    float: left;
+}  */
+
+.logo h2 {
+    color: rgb(13, 1, 39);
+    margin: 25px 559px;
+    font-size: 32px;
+}
+
+.registerarea {
+    height: 400px;
+    /*border: 1px solid rgb(140, 170, 255);*/
+}
+
+.registerarea h3 {
+    height: 42px;
+    /*border-bottom: 1px solid #ccc;*/
+   
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    font-size: 13px;
+}
+
+.login span {
+    color: rgb(27, 15, 54);
+}
+.login a {
+    color: white;
+}
+
+
+.reg_form {
+    width: 400px;
+    background-color: #fff;
+    margin: 30px  auto 0;
+    /* -webkit-filter: opacity(90%);  */
+    filter: opacity(50%);
+    border-radius: 5%;
+    
+}
+
+
+.reg_form ul li {
+   
+    margin-bottom: 10px;
+}
+
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+/* .error {
+    color: tomato;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+
+} */
+
+.agree {
+    padding-left: 107px;
+}
+
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.agree_btn {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: rgb(30, 5, 87);;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0 7px 110px;
+    border-radius: 25px;
+}
